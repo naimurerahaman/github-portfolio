@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MD Naimure Rahaman Emon — Portfolio</title>
+  <meta name="description" content="Portfolio of MD Naimure Rahaman Emon — Website & Mobile App Developer | CSE Student" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="light">
+  <div class="container">
+    <header>
+      <div class="avatar card">
+        <img src="images/emon.jpg" alt="avatar" />
+      </div>
+      <div>
+        <h1>MD Naimure Rahaman Emon</h1>
+        <div class="tagline">Website & Mobile App Developer | CSE Student | Tech Enthusiast</div>
+        <div style="margin-top:8px;color:var(--muted)">CS | Enthusiast of Web, Software & App Development • Studying BSc in CSE at American International University - Bangladesh</div>
+        <div class="skills">
+          <span class="chip">Front-End Web Development</span>
+          <span class="chip">Mobile App Development</span>
+          <span class="chip">Fluent in English</span>
+          <span class="chip">C++</span>
+          <span class="chip">Java</span>
+          <span class="chip">JavaScript</span>
+        </div>
+      </div>
+      <div class="intro">
+  <button id="themeToggle" class="toggle" title="Toggle dark/light" aria-pressed="false">🌙 Toggle</button>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section>
+        <div class="card">
+          <h2>About</h2>
+          <p class="muted">Hello! I'm <strong>MD Naimure Rahaman Emon</strong>, a CSE student and developer who builds websites and mobile apps.</p>
+          <div>
+            <strong>Highlighted projects</strong>
+            <div class="projects">
+              <div class="project" tabindex="0" role="button" aria-label="View details for Library Management System" data-title="Library Management System" data-desc="A full-stack library management system built with PHP and MySQL." data-link="https://github.com/naimurerahaman/Library-Management-System">
+                <h3>Library Management System</h3>
+                <p>PHP · MySQL · Web App</p>
+              </div>
+              <div class="project" tabindex="0" role="button" aria-label="View details for Ticket Booking Software (Java)" data-title="Ticket Booking Software (Java)" data-desc="A Java-based ticket booking application." data-link="https://github.com/naimurerahaman/Ticket-Booking-Software-using-JAVA">
+                <h3>Ticket Booking (Java)</h3>
+                <p>Java · OOP · Desktop App</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <strong>Education</strong>
+            <div class="edu-item muted">
+              <div><strong>American International University-Bangladesh</strong> — BS in CSE</div>
+              <div>Nov 2022 - Jun 2026 • Grade: 3.55</div>
+            </div>
+            <div class="edu-item muted">
+              <div><strong>Govt. Adarsha Sundarban College, Khulna</strong> — HSC</div>
+              <div>2019 - 2021 • Science • GPA 5.00 </div>
+            </div>
+            <div class="edu-item muted">
+              <div><strong>KHULNA ZILLA SCHOOL AND COLLEGE</strong> — SSC</div>
+              <div>2011 - 2019 • Science • GPA 5.00</div>
+            </div>
+          </div>
+
+          <div>
+            <strong>Certifications</strong>
+            <ul class="muted">
+              <li>Build a free website with WordPress — Coursera Project Network</li>
+              <li>Getting Started with Front-End and Web Development — IBM</li>
+              <li>Introduction to Front-End Development — Meta</li>
+              <li>Introduction to Mobile Development — Meta</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card" id="contact">
+          <h3>Contact</h3>
+          <p><strong>Email:</strong> <a href="mailto:mdnaimurerahamanemon@gmail.com">mdnaimurerahamanemon@gmail.com</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/md-naimure-rahaman-emon/" target="_blank">LinkedIn</a></p>
+          <a class="btn" href="mailto:mdnaimurerahamanemon@gmail.com">Email Me</a>
+          <a class="ghost" href="https://github.com/naimurerahaman" target="_blank">GitHub</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="muted">© <span id="year"></span> MD Naimure Rahaman Emon</div>
+    </footer>
+  </div>
+
+  <div id="modalRoot" style="display:none" aria-modal="true" role="dialog"></div>
+  <script src="script.js"></script>
+</body>
+</html>
