@@ -1,101 +1,180 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MD Naimure Rahaman Emon — Portfolio</title>
-  <meta name="description" content="Portfolio of MD Naimure Rahaman Emon — Website & Mobile App Developer | CSE Student" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
 </head>
-<body data-theme="light">
-  <div class="container">
-    <header>
-      <div class="avatar card">
-        <img src="images/emon.jpg" alt="avatar" />
-      </div>
-      <div>
-        <h1>MD Naimure Rahaman Emon</h1>
-        <div class="tagline">Website & Mobile App Developer | CSE Student | Tech Enthusiast</div>
-        <div style="margin-top:8px;color:var(--muted)">CS | Enthusiast of Web, Software & App Development • Studying BSc in CSE at American International University - Bangladesh</div>
-        <div class="skills">
-          <span class="chip">Front-End Web Development</span>
-          <span class="chip">Mobile App Development</span>
-          <span class="chip">Fluent in English</span>
-          <span class="chip">C++</span>
-          <span class="chip">Java</span>
-          <span class="chip">JavaScript</span>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">MD Naimure Rahaman Emon</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/naimurerahaman" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/md-naimure-rahaman-emon/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:mdnaimurerahamanemon@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I’m <strong>MD Naimure Rahaman Emon</strong></h2>
+        <p>
+            an aspiring full-stack web developer with a focus on <strong>PHP</strong> and <strong>Laravel</strong>. 
+            I’ve been actively learning and applying these technologies to build practical projects that challenge me and expand my knowledge.  
+
+            I’m passionate about writing clean, maintainable code and creating applications that solve real-world problems. 
+            As I continue to grow, I’m eager to explore more advanced concepts in backend development, database design, and API integration — while also sharpening my frontend skills.  
+
+            Beyond coding, I’m motivated by curiosity and the drive to keep improving, one project at a time 🚀
+        </p>
+
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span>Projects</span>
+          </a>
+
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
         </div>
       </div>
-      <div class="intro">
-  <button id="themeToggle" class="toggle" title="Toggle dark/light" aria-pressed="false">🌙 Toggle</button>
-        <a class="btn" href="#contact">Contact</a>
+
+      <div class="headshot">
+        <img src="images/dp.png" alt="john doe headshot">
       </div>
-    </header>
+    </section>
 
-    <main class="grid">
-      <section>
-        <div class="card">
-          <h2>About</h2>
-          <p class="muted">Hello! I'm <strong>MD Naimure Rahaman Emon</strong>, a CSE student and developer who builds websites and mobile apps.</p>
-          <div>
-            <strong>Highlighted projects</strong>
-            <div class="projects">
-              <div class="project" tabindex="0" role="button" aria-label="View details for Library Management System" data-title="Library Management System" data-desc="A full-stack library management system built with PHP and MySQL." data-link="https://github.com/naimurerahaman/Library-Management-System">
-                <h3>Library Management System</h3>
-                <p>PHP · MySQL · Web App</p>
-              </div>
-              <div class="project" tabindex="0" role="button" aria-label="View details for Ticket Booking Software (Java)" data-title="Ticket Booking Software (Java)" data-desc="A Java-based ticket booking application." data-link="https://github.com/naimurerahaman/Ticket-Booking-Software-using-JAVA">
-                <h3>Ticket Booking (Java)</h3>
-                <p>Java · OOP · Desktop App</p>
-              </div>
-            </div>
-          </div>
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        <p>
+        I have a solid foundation in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> for building responsive and user-friendly interfaces. 
+        Currently, I’m focusing on backend development with <strong>PHP</strong> and <strong>Laravel</strong>, where I’m learning to create dynamic web applications and manage databases effectively. 
+        Through my projects, I’m continuously improving my problem-solving skills and gaining hands-on experience in modern web development.
+        </p>
+      </div>
 
-          <div>
-            <strong>Education</strong>
-            <div class="edu-item muted">
-              <div><strong>American International University-Bangladesh</strong> — BS in CSE</div>
-              <div>Nov 2022 - Jun 2026 • Grade: 3.55</div>
-            </div>
-            <div class="edu-item muted">
-              <div><strong>Govt. Adarsha Sundarban College, Khulna</strong> — HSC</div>
-              <div>2019 - 2021 • Science • GPA 5.00 </div>
-            </div>
-            <div class="edu-item muted">
-              <div><strong>KHULNA ZILLA SCHOOL AND COLLEGE</strong> — SSC</div>
-              <div>2011 - 2019 • Science • GPA 5.00</div>
-            </div>
-          </div>
-
-          <div>
-            <strong>Certifications</strong>
-            <ul class="muted">
-              <li>Build a free website with WordPress — Coursera Project Network</li>
-              <li>Getting Started with Front-End and Web Development — IBM</li>
-              <li>Introduction to Front-End Development — Meta</li>
-              <li>Introduction to Mobile Development — Meta</li>
-            </ul>
-          </div>
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
         </div>
-      </section>
-
-      <aside>
-        <div class="card" id="contact">
-          <h3>Contact</h3>
-          <p><strong>Email:</strong> <a href="mailto:mdnaimurerahamanemon@gmail.com">mdnaimurerahamanemon@gmail.com</a></p>
-          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/md-naimure-rahaman-emon/" target="_blank">LinkedIn</a></p>
-          <a class="btn" href="mailto:mdnaimurerahamanemon@gmail.com">Email Me</a>
-          <a class="ghost" href="https://github.com/naimurerahaman" target="_blank">GitHub</a>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
         </div>
-      </aside>
-    </main>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/php-logo.webp" alt="php logo">
+          <span>PHP</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/laravel-logo.webp" alt="laravel logo">
+          <span>Laravel</span>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-      <div class="muted">© <span id="year"></span> MD Naimure Rahaman Emon</div>
-    </footer>
-  </div>
+        <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
 
-  <div id="modalRoot" style="display:none" aria-modal="true" role="dialog"></div>
-  <script src="script.js"></script>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/library-management-system.png" alt="library-management-system">
+          <h3>Library Management System</h3>
+          <p>A web application built using HTML, CSS, JavaScript and PHP. It allows book readers to borrow book online.</p>
+          <a href="https://github.com/naimurerahaman/Library-Management-System" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/project2.webp" alt="Project 2 Screenshot">
+          <h3>Project Two</h3>
+          <p>An e-commerce platform developed with Laravel and PHP. Features include a shopping cart, payment system, and user authentication.</p>
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/project3.webp" alt="Project 3 Screenshot">
+          <h3>Project Three</h3>
+          <p>A responsive portfolio website designed to showcase my work, with a modern UI built using HTML, CSS, and JavaScript.</p>
+          <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+         <p>
+            I’m always open to new opportunities, collaborations, or just a friendly chat about web development. 
+            Whether you have a project idea, want to work together, or simply wish to connect, feel free to reach out. 
+            Drop me a message using the form below, and I’ll get back to you as soon as possible!
+         </p>
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
